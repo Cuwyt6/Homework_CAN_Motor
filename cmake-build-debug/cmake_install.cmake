@@ -1,4 +1,4 @@
-# Install script for directory: D:/STM32Cube/my_projects/CAN_motor
+# Install script for directory: D:/STM32Cube/my_projects/CAN_board
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/STM32Cube/my_projects/CAN_motor/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/STM32Cube/my_projects/CAN_board/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

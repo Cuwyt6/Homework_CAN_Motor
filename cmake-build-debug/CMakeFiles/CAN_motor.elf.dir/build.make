@@ -52,10 +52,10 @@ RM = D:\CLion\bin\cmake\win\x64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\STM32Cube\my_projects\CAN_motor
+CMAKE_SOURCE_DIR = D:\STM32Cube\my_projects\CAN_board
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\STM32Cube\my_projects\CAN_motor\cmake-build-debug
+CMAKE_BINARY_DIR = D:\STM32Cube\my_projects\CAN_board\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CAN_motor.elf.dir/depend.make
@@ -69,381 +69,381 @@ include CMakeFiles/CAN_motor.elf.dir/progress.make
 include CMakeFiles/CAN_motor.elf.dir/flags.make
 
 CMakeFiles/CAN_motor.elf.dir/Core/Src/M3508_Motor.cpp.obj: CMakeFiles/CAN_motor.elf.dir/flags.make
-CMakeFiles/CAN_motor.elf.dir/Core/Src/M3508_Motor.cpp.obj: D:/STM32Cube/my_projects/CAN_motor/Core/Src/M3508_Motor.cpp
+CMakeFiles/CAN_motor.elf.dir/Core/Src/M3508_Motor.cpp.obj: D:/STM32Cube/my_projects/CAN_board/Core/Src/M3508_Motor.cpp
 CMakeFiles/CAN_motor.elf.dir/Core/Src/M3508_Motor.cpp.obj: CMakeFiles/CAN_motor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_motor\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CAN_motor.elf.dir/Core/Src/M3508_Motor.cpp.obj"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Core/Src/M3508_Motor.cpp.obj -MF CMakeFiles\CAN_motor.elf.dir\Core\Src\M3508_Motor.cpp.obj.d -o CMakeFiles\CAN_motor.elf.dir\Core\Src\M3508_Motor.cpp.obj -c D:\STM32Cube\my_projects\CAN_motor\Core\Src\M3508_Motor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CAN_motor.elf.dir/Core/Src/M3508_Motor.cpp.obj"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Core/Src/M3508_Motor.cpp.obj -MF CMakeFiles\CAN_motor.elf.dir\Core\Src\M3508_Motor.cpp.obj.d -o CMakeFiles\CAN_motor.elf.dir\Core\Src\M3508_Motor.cpp.obj -c D:\STM32Cube\my_projects\CAN_board\Core\Src\M3508_Motor.cpp
 
 CMakeFiles/CAN_motor.elf.dir/Core/Src/M3508_Motor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CAN_motor.elf.dir/Core/Src/M3508_Motor.cpp.i"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\STM32Cube\my_projects\CAN_motor\Core\Src\M3508_Motor.cpp > CMakeFiles\CAN_motor.elf.dir\Core\Src\M3508_Motor.cpp.i
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\STM32Cube\my_projects\CAN_board\Core\Src\M3508_Motor.cpp > CMakeFiles\CAN_motor.elf.dir\Core\Src\M3508_Motor.cpp.i
 
 CMakeFiles/CAN_motor.elf.dir/Core/Src/M3508_Motor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CAN_motor.elf.dir/Core/Src/M3508_Motor.cpp.s"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\STM32Cube\my_projects\CAN_motor\Core\Src\M3508_Motor.cpp -o CMakeFiles\CAN_motor.elf.dir\Core\Src\M3508_Motor.cpp.s
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\STM32Cube\my_projects\CAN_board\Core\Src\M3508_Motor.cpp -o CMakeFiles\CAN_motor.elf.dir\Core\Src\M3508_Motor.cpp.s
 
 CMakeFiles/CAN_motor.elf.dir/Core/Src/callback.cpp.obj: CMakeFiles/CAN_motor.elf.dir/flags.make
-CMakeFiles/CAN_motor.elf.dir/Core/Src/callback.cpp.obj: D:/STM32Cube/my_projects/CAN_motor/Core/Src/callback.cpp
+CMakeFiles/CAN_motor.elf.dir/Core/Src/callback.cpp.obj: D:/STM32Cube/my_projects/CAN_board/Core/Src/callback.cpp
 CMakeFiles/CAN_motor.elf.dir/Core/Src/callback.cpp.obj: CMakeFiles/CAN_motor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_motor\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CAN_motor.elf.dir/Core/Src/callback.cpp.obj"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Core/Src/callback.cpp.obj -MF CMakeFiles\CAN_motor.elf.dir\Core\Src\callback.cpp.obj.d -o CMakeFiles\CAN_motor.elf.dir\Core\Src\callback.cpp.obj -c D:\STM32Cube\my_projects\CAN_motor\Core\Src\callback.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CAN_motor.elf.dir/Core/Src/callback.cpp.obj"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Core/Src/callback.cpp.obj -MF CMakeFiles\CAN_motor.elf.dir\Core\Src\callback.cpp.obj.d -o CMakeFiles\CAN_motor.elf.dir\Core\Src\callback.cpp.obj -c D:\STM32Cube\my_projects\CAN_board\Core\Src\callback.cpp
 
 CMakeFiles/CAN_motor.elf.dir/Core/Src/callback.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CAN_motor.elf.dir/Core/Src/callback.cpp.i"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\STM32Cube\my_projects\CAN_motor\Core\Src\callback.cpp > CMakeFiles\CAN_motor.elf.dir\Core\Src\callback.cpp.i
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\STM32Cube\my_projects\CAN_board\Core\Src\callback.cpp > CMakeFiles\CAN_motor.elf.dir\Core\Src\callback.cpp.i
 
 CMakeFiles/CAN_motor.elf.dir/Core/Src/callback.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CAN_motor.elf.dir/Core/Src/callback.cpp.s"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\STM32Cube\my_projects\CAN_motor\Core\Src\callback.cpp -o CMakeFiles\CAN_motor.elf.dir\Core\Src\callback.cpp.s
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\STM32Cube\my_projects\CAN_board\Core\Src\callback.cpp -o CMakeFiles\CAN_motor.elf.dir\Core\Src\callback.cpp.s
 
 CMakeFiles/CAN_motor.elf.dir/Core/Src/can.c.obj: CMakeFiles/CAN_motor.elf.dir/flags.make
-CMakeFiles/CAN_motor.elf.dir/Core/Src/can.c.obj: D:/STM32Cube/my_projects/CAN_motor/Core/Src/can.c
+CMakeFiles/CAN_motor.elf.dir/Core/Src/can.c.obj: D:/STM32Cube/my_projects/CAN_board/Core/Src/can.c
 CMakeFiles/CAN_motor.elf.dir/Core/Src/can.c.obj: CMakeFiles/CAN_motor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_motor\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/CAN_motor.elf.dir/Core/Src/can.c.obj"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Core/Src/can.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Core\Src\can.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Core\Src\can.c.obj -c D:\STM32Cube\my_projects\CAN_motor\Core\Src\can.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/CAN_motor.elf.dir/Core/Src/can.c.obj"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Core/Src/can.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Core\Src\can.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Core\Src\can.c.obj -c D:\STM32Cube\my_projects\CAN_board\Core\Src\can.c
 
 CMakeFiles/CAN_motor.elf.dir/Core/Src/can.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CAN_motor.elf.dir/Core/Src/can.c.i"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_motor\Core\Src\can.c > CMakeFiles\CAN_motor.elf.dir\Core\Src\can.c.i
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_board\Core\Src\can.c > CMakeFiles\CAN_motor.elf.dir\Core\Src\can.c.i
 
 CMakeFiles/CAN_motor.elf.dir/Core/Src/can.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CAN_motor.elf.dir/Core/Src/can.c.s"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_motor\Core\Src\can.c -o CMakeFiles\CAN_motor.elf.dir\Core\Src\can.c.s
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_board\Core\Src\can.c -o CMakeFiles\CAN_motor.elf.dir\Core\Src\can.c.s
 
 CMakeFiles/CAN_motor.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/CAN_motor.elf.dir/flags.make
-CMakeFiles/CAN_motor.elf.dir/Core/Src/gpio.c.obj: D:/STM32Cube/my_projects/CAN_motor/Core/Src/gpio.c
+CMakeFiles/CAN_motor.elf.dir/Core/Src/gpio.c.obj: D:/STM32Cube/my_projects/CAN_board/Core/Src/gpio.c
 CMakeFiles/CAN_motor.elf.dir/Core/Src/gpio.c.obj: CMakeFiles/CAN_motor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_motor\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/CAN_motor.elf.dir/Core/Src/gpio.c.obj"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Core\Src\gpio.c.obj -c D:\STM32Cube\my_projects\CAN_motor\Core\Src\gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/CAN_motor.elf.dir/Core/Src/gpio.c.obj"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Core/Src/gpio.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Core\Src\gpio.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Core\Src\gpio.c.obj -c D:\STM32Cube\my_projects\CAN_board\Core\Src\gpio.c
 
 CMakeFiles/CAN_motor.elf.dir/Core/Src/gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CAN_motor.elf.dir/Core/Src/gpio.c.i"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_motor\Core\Src\gpio.c > CMakeFiles\CAN_motor.elf.dir\Core\Src\gpio.c.i
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_board\Core\Src\gpio.c > CMakeFiles\CAN_motor.elf.dir\Core\Src\gpio.c.i
 
 CMakeFiles/CAN_motor.elf.dir/Core/Src/gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CAN_motor.elf.dir/Core/Src/gpio.c.s"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_motor\Core\Src\gpio.c -o CMakeFiles\CAN_motor.elf.dir\Core\Src\gpio.c.s
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_board\Core\Src\gpio.c -o CMakeFiles\CAN_motor.elf.dir\Core\Src\gpio.c.s
 
 CMakeFiles/CAN_motor.elf.dir/Core/Src/main.cpp.obj: CMakeFiles/CAN_motor.elf.dir/flags.make
-CMakeFiles/CAN_motor.elf.dir/Core/Src/main.cpp.obj: D:/STM32Cube/my_projects/CAN_motor/Core/Src/main.cpp
+CMakeFiles/CAN_motor.elf.dir/Core/Src/main.cpp.obj: D:/STM32Cube/my_projects/CAN_board/Core/Src/main.cpp
 CMakeFiles/CAN_motor.elf.dir/Core/Src/main.cpp.obj: CMakeFiles/CAN_motor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_motor\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CAN_motor.elf.dir/Core/Src/main.cpp.obj"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Core/Src/main.cpp.obj -MF CMakeFiles\CAN_motor.elf.dir\Core\Src\main.cpp.obj.d -o CMakeFiles\CAN_motor.elf.dir\Core\Src\main.cpp.obj -c D:\STM32Cube\my_projects\CAN_motor\Core\Src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/CAN_motor.elf.dir/Core/Src/main.cpp.obj"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Core/Src/main.cpp.obj -MF CMakeFiles\CAN_motor.elf.dir\Core\Src\main.cpp.obj.d -o CMakeFiles\CAN_motor.elf.dir\Core\Src\main.cpp.obj -c D:\STM32Cube\my_projects\CAN_board\Core\Src\main.cpp
 
 CMakeFiles/CAN_motor.elf.dir/Core/Src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/CAN_motor.elf.dir/Core/Src/main.cpp.i"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\STM32Cube\my_projects\CAN_motor\Core\Src\main.cpp > CMakeFiles\CAN_motor.elf.dir\Core\Src\main.cpp.i
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\STM32Cube\my_projects\CAN_board\Core\Src\main.cpp > CMakeFiles\CAN_motor.elf.dir\Core\Src\main.cpp.i
 
 CMakeFiles/CAN_motor.elf.dir/Core/Src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/CAN_motor.elf.dir/Core/Src/main.cpp.s"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\STM32Cube\my_projects\CAN_motor\Core\Src\main.cpp -o CMakeFiles\CAN_motor.elf.dir\Core\Src\main.cpp.s
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\STM32Cube\my_projects\CAN_board\Core\Src\main.cpp -o CMakeFiles\CAN_motor.elf.dir\Core\Src\main.cpp.s
 
 CMakeFiles/CAN_motor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/CAN_motor.elf.dir/flags.make
-CMakeFiles/CAN_motor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: D:/STM32Cube/my_projects/CAN_motor/Core/Src/stm32f4xx_hal_msp.c
+CMakeFiles/CAN_motor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: D:/STM32Cube/my_projects/CAN_board/Core/Src/stm32f4xx_hal_msp.c
 CMakeFiles/CAN_motor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj: CMakeFiles/CAN_motor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_motor\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/CAN_motor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj -c D:\STM32Cube\my_projects\CAN_motor\Core\Src\stm32f4xx_hal_msp.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/CAN_motor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Core\Src\stm32f4xx_hal_msp.c.obj -c D:\STM32Cube\my_projects\CAN_board\Core\Src\stm32f4xx_hal_msp.c
 
 CMakeFiles/CAN_motor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CAN_motor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.i"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_motor\Core\Src\stm32f4xx_hal_msp.c > CMakeFiles\CAN_motor.elf.dir\Core\Src\stm32f4xx_hal_msp.c.i
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_board\Core\Src\stm32f4xx_hal_msp.c > CMakeFiles\CAN_motor.elf.dir\Core\Src\stm32f4xx_hal_msp.c.i
 
 CMakeFiles/CAN_motor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CAN_motor.elf.dir/Core/Src/stm32f4xx_hal_msp.c.s"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_motor\Core\Src\stm32f4xx_hal_msp.c -o CMakeFiles\CAN_motor.elf.dir\Core\Src\stm32f4xx_hal_msp.c.s
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_board\Core\Src\stm32f4xx_hal_msp.c -o CMakeFiles\CAN_motor.elf.dir\Core\Src\stm32f4xx_hal_msp.c.s
 
 CMakeFiles/CAN_motor.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/CAN_motor.elf.dir/flags.make
-CMakeFiles/CAN_motor.elf.dir/Core/Src/stm32f4xx_it.c.obj: D:/STM32Cube/my_projects/CAN_motor/Core/Src/stm32f4xx_it.c
+CMakeFiles/CAN_motor.elf.dir/Core/Src/stm32f4xx_it.c.obj: D:/STM32Cube/my_projects/CAN_board/Core/Src/stm32f4xx_it.c
 CMakeFiles/CAN_motor.elf.dir/Core/Src/stm32f4xx_it.c.obj: CMakeFiles/CAN_motor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_motor\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/CAN_motor.elf.dir/Core/Src/stm32f4xx_it.c.obj"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Core/Src/stm32f4xx_it.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Core\Src\stm32f4xx_it.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Core\Src\stm32f4xx_it.c.obj -c D:\STM32Cube\my_projects\CAN_motor\Core\Src\stm32f4xx_it.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/CAN_motor.elf.dir/Core/Src/stm32f4xx_it.c.obj"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Core/Src/stm32f4xx_it.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Core\Src\stm32f4xx_it.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Core\Src\stm32f4xx_it.c.obj -c D:\STM32Cube\my_projects\CAN_board\Core\Src\stm32f4xx_it.c
 
 CMakeFiles/CAN_motor.elf.dir/Core/Src/stm32f4xx_it.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CAN_motor.elf.dir/Core/Src/stm32f4xx_it.c.i"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_motor\Core\Src\stm32f4xx_it.c > CMakeFiles\CAN_motor.elf.dir\Core\Src\stm32f4xx_it.c.i
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_board\Core\Src\stm32f4xx_it.c > CMakeFiles\CAN_motor.elf.dir\Core\Src\stm32f4xx_it.c.i
 
 CMakeFiles/CAN_motor.elf.dir/Core/Src/stm32f4xx_it.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CAN_motor.elf.dir/Core/Src/stm32f4xx_it.c.s"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_motor\Core\Src\stm32f4xx_it.c -o CMakeFiles\CAN_motor.elf.dir\Core\Src\stm32f4xx_it.c.s
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_board\Core\Src\stm32f4xx_it.c -o CMakeFiles\CAN_motor.elf.dir\Core\Src\stm32f4xx_it.c.s
 
 CMakeFiles/CAN_motor.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/CAN_motor.elf.dir/flags.make
-CMakeFiles/CAN_motor.elf.dir/Core/Src/syscalls.c.obj: D:/STM32Cube/my_projects/CAN_motor/Core/Src/syscalls.c
+CMakeFiles/CAN_motor.elf.dir/Core/Src/syscalls.c.obj: D:/STM32Cube/my_projects/CAN_board/Core/Src/syscalls.c
 CMakeFiles/CAN_motor.elf.dir/Core/Src/syscalls.c.obj: CMakeFiles/CAN_motor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_motor\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/CAN_motor.elf.dir/Core/Src/syscalls.c.obj"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Core\Src\syscalls.c.obj -c D:\STM32Cube\my_projects\CAN_motor\Core\Src\syscalls.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/CAN_motor.elf.dir/Core/Src/syscalls.c.obj"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Core/Src/syscalls.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Core\Src\syscalls.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Core\Src\syscalls.c.obj -c D:\STM32Cube\my_projects\CAN_board\Core\Src\syscalls.c
 
 CMakeFiles/CAN_motor.elf.dir/Core/Src/syscalls.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CAN_motor.elf.dir/Core/Src/syscalls.c.i"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_motor\Core\Src\syscalls.c > CMakeFiles\CAN_motor.elf.dir\Core\Src\syscalls.c.i
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_board\Core\Src\syscalls.c > CMakeFiles\CAN_motor.elf.dir\Core\Src\syscalls.c.i
 
 CMakeFiles/CAN_motor.elf.dir/Core/Src/syscalls.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CAN_motor.elf.dir/Core/Src/syscalls.c.s"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_motor\Core\Src\syscalls.c -o CMakeFiles\CAN_motor.elf.dir\Core\Src\syscalls.c.s
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_board\Core\Src\syscalls.c -o CMakeFiles\CAN_motor.elf.dir\Core\Src\syscalls.c.s
 
 CMakeFiles/CAN_motor.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/CAN_motor.elf.dir/flags.make
-CMakeFiles/CAN_motor.elf.dir/Core/Src/sysmem.c.obj: D:/STM32Cube/my_projects/CAN_motor/Core/Src/sysmem.c
+CMakeFiles/CAN_motor.elf.dir/Core/Src/sysmem.c.obj: D:/STM32Cube/my_projects/CAN_board/Core/Src/sysmem.c
 CMakeFiles/CAN_motor.elf.dir/Core/Src/sysmem.c.obj: CMakeFiles/CAN_motor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_motor\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/CAN_motor.elf.dir/Core/Src/sysmem.c.obj"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Core\Src\sysmem.c.obj -c D:\STM32Cube\my_projects\CAN_motor\Core\Src\sysmem.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/CAN_motor.elf.dir/Core/Src/sysmem.c.obj"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Core/Src/sysmem.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Core\Src\sysmem.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Core\Src\sysmem.c.obj -c D:\STM32Cube\my_projects\CAN_board\Core\Src\sysmem.c
 
 CMakeFiles/CAN_motor.elf.dir/Core/Src/sysmem.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CAN_motor.elf.dir/Core/Src/sysmem.c.i"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_motor\Core\Src\sysmem.c > CMakeFiles\CAN_motor.elf.dir\Core\Src\sysmem.c.i
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_board\Core\Src\sysmem.c > CMakeFiles\CAN_motor.elf.dir\Core\Src\sysmem.c.i
 
 CMakeFiles/CAN_motor.elf.dir/Core/Src/sysmem.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CAN_motor.elf.dir/Core/Src/sysmem.c.s"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_motor\Core\Src\sysmem.c -o CMakeFiles\CAN_motor.elf.dir\Core\Src\sysmem.c.s
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_board\Core\Src\sysmem.c -o CMakeFiles\CAN_motor.elf.dir\Core\Src\sysmem.c.s
 
 CMakeFiles/CAN_motor.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/CAN_motor.elf.dir/flags.make
-CMakeFiles/CAN_motor.elf.dir/Core/Src/system_stm32f4xx.c.obj: D:/STM32Cube/my_projects/CAN_motor/Core/Src/system_stm32f4xx.c
+CMakeFiles/CAN_motor.elf.dir/Core/Src/system_stm32f4xx.c.obj: D:/STM32Cube/my_projects/CAN_board/Core/Src/system_stm32f4xx.c
 CMakeFiles/CAN_motor.elf.dir/Core/Src/system_stm32f4xx.c.obj: CMakeFiles/CAN_motor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_motor\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/CAN_motor.elf.dir/Core/Src/system_stm32f4xx.c.obj"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Core/Src/system_stm32f4xx.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Core\Src\system_stm32f4xx.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Core\Src\system_stm32f4xx.c.obj -c D:\STM32Cube\my_projects\CAN_motor\Core\Src\system_stm32f4xx.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/CAN_motor.elf.dir/Core/Src/system_stm32f4xx.c.obj"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Core/Src/system_stm32f4xx.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Core\Src\system_stm32f4xx.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Core\Src\system_stm32f4xx.c.obj -c D:\STM32Cube\my_projects\CAN_board\Core\Src\system_stm32f4xx.c
 
 CMakeFiles/CAN_motor.elf.dir/Core/Src/system_stm32f4xx.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CAN_motor.elf.dir/Core/Src/system_stm32f4xx.c.i"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_motor\Core\Src\system_stm32f4xx.c > CMakeFiles\CAN_motor.elf.dir\Core\Src\system_stm32f4xx.c.i
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_board\Core\Src\system_stm32f4xx.c > CMakeFiles\CAN_motor.elf.dir\Core\Src\system_stm32f4xx.c.i
 
 CMakeFiles/CAN_motor.elf.dir/Core/Src/system_stm32f4xx.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CAN_motor.elf.dir/Core/Src/system_stm32f4xx.c.s"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_motor\Core\Src\system_stm32f4xx.c -o CMakeFiles\CAN_motor.elf.dir\Core\Src\system_stm32f4xx.c.s
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_board\Core\Src\system_stm32f4xx.c -o CMakeFiles\CAN_motor.elf.dir\Core\Src\system_stm32f4xx.c.s
 
 CMakeFiles/CAN_motor.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj: CMakeFiles/CAN_motor.elf.dir/flags.make
-CMakeFiles/CAN_motor.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj: D:/STM32Cube/my_projects/CAN_motor/Core/Startup/startup_stm32f427iihx.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_motor\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building ASM object CMakeFiles/CAN_motor.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\CAN_motor.elf.dir\Core\Startup\startup_stm32f427iihx.s.obj -c D:\STM32Cube\my_projects\CAN_motor\Core\Startup\startup_stm32f427iihx.s
+CMakeFiles/CAN_motor.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj: D:/STM32Cube/my_projects/CAN_board/Core/Startup/startup_stm32f427iihx.s
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building ASM object CMakeFiles/CAN_motor.elf.dir/Core/Startup/startup_stm32f427iihx.s.obj"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\CAN_motor.elf.dir\Core\Startup\startup_stm32f427iihx.s.obj -c D:\STM32Cube\my_projects\CAN_board\Core\Startup\startup_stm32f427iihx.s
 
 CMakeFiles/CAN_motor.elf.dir/Core/Startup/startup_stm32f427iihx.s.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing ASM source to CMakeFiles/CAN_motor.elf.dir/Core/Startup/startup_stm32f427iihx.s.i"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E D:\STM32Cube\my_projects\CAN_motor\Core\Startup\startup_stm32f427iihx.s > CMakeFiles\CAN_motor.elf.dir\Core\Startup\startup_stm32f427iihx.s.i
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -E D:\STM32Cube\my_projects\CAN_board\Core\Startup\startup_stm32f427iihx.s > CMakeFiles\CAN_motor.elf.dir\Core\Startup\startup_stm32f427iihx.s.i
 
 CMakeFiles/CAN_motor.elf.dir/Core/Startup/startup_stm32f427iihx.s.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling ASM source to assembly CMakeFiles/CAN_motor.elf.dir/Core/Startup/startup_stm32f427iihx.s.s"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S D:\STM32Cube\my_projects\CAN_motor\Core\Startup\startup_stm32f427iihx.s -o CMakeFiles\CAN_motor.elf.dir\Core\Startup\startup_stm32f427iihx.s.s
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -S D:\STM32Cube\my_projects\CAN_board\Core\Startup\startup_stm32f427iihx.s -o CMakeFiles\CAN_motor.elf.dir\Core\Startup\startup_stm32f427iihx.s.s
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/CAN_motor.elf.dir/flags.make
-CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: D:/STM32Cube/my_projects/CAN_motor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
+CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: D:/STM32Cube/my_projects/CAN_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj: CMakeFiles/CAN_motor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_motor\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.obj -c D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.i"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c > CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.i
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c > CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.i
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.c.s"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.s
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal.c.s
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: CMakeFiles/CAN_motor.elf.dir/flags.make
-CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: D:/STM32Cube/my_projects/CAN_motor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c
+CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: D:/STM32Cube/my_projects/CAN_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj: CMakeFiles/CAN_motor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_motor\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.obj -c D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.obj -c D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.i"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c > CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.i
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c > CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.i
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_can.c.s"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.s
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_can.c.s
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/CAN_motor.elf.dir/flags.make
-CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: D:/STM32Cube/my_projects/CAN_motor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
+CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: D:/STM32Cube/my_projects/CAN_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj: CMakeFiles/CAN_motor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_motor\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.obj -c D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.i"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c > CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.i
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c > CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.i
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.c.s"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.s
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_cortex.c.s
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/CAN_motor.elf.dir/flags.make
-CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: D:/STM32Cube/my_projects/CAN_motor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
+CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: D:/STM32Cube/my_projects/CAN_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj: CMakeFiles/CAN_motor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_motor\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.obj -c D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.i"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c > CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.i
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c > CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.i
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.c.s"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.s
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma.c.s
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/CAN_motor.elf.dir/flags.make
-CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: D:/STM32Cube/my_projects/CAN_motor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
+CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: D:/STM32Cube/my_projects/CAN_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj: CMakeFiles/CAN_motor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_motor\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.obj -c D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.i"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c > CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.i
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c > CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.i
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma_ex.c.s"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.s
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_dma_ex.c.s
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/CAN_motor.elf.dir/flags.make
-CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: D:/STM32Cube/my_projects/CAN_motor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
+CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: D:/STM32Cube/my_projects/CAN_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj: CMakeFiles/CAN_motor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_motor\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.obj -c D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.i"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c > CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.i
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c > CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.i
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_exti.c.s"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.s
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_exti.c.s
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/CAN_motor.elf.dir/flags.make
-CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: D:/STM32Cube/my_projects/CAN_motor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
+CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: D:/STM32Cube/my_projects/CAN_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj: CMakeFiles/CAN_motor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_motor\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.obj -c D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.i"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c > CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.i
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c > CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.i
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash.c.s"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.s
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash.c.s
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/CAN_motor.elf.dir/flags.make
-CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: D:/STM32Cube/my_projects/CAN_motor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
+CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: D:/STM32Cube/my_projects/CAN_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj: CMakeFiles/CAN_motor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_motor\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.obj -c D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.i"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c > CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.i
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c > CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.i
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ex.c.s"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.s
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ex.c.s
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/CAN_motor.elf.dir/flags.make
-CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: D:/STM32Cube/my_projects/CAN_motor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
+CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: D:/STM32Cube/my_projects/CAN_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj: CMakeFiles/CAN_motor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_motor\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.obj -c D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.i"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c > CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.i
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c > CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.i
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_flash_ramfunc.c.s"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.s
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_flash_ramfunc.c.s
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/CAN_motor.elf.dir/flags.make
-CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: D:/STM32Cube/my_projects/CAN_motor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
+CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: D:/STM32Cube/my_projects/CAN_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj: CMakeFiles/CAN_motor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_motor\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.obj -c D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.i"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c > CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.i
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c > CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.i
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.c.s"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.s
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_gpio.c.s
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/CAN_motor.elf.dir/flags.make
-CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: D:/STM32Cube/my_projects/CAN_motor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
+CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: D:/STM32Cube/my_projects/CAN_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj: CMakeFiles/CAN_motor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_motor\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.obj -c D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.i"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c > CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.i
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c > CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.i
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr.c.s"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.s
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr.c.s
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/CAN_motor.elf.dir/flags.make
-CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: D:/STM32Cube/my_projects/CAN_motor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
+CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: D:/STM32Cube/my_projects/CAN_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj: CMakeFiles/CAN_motor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_motor\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.obj -c D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.i"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c > CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.i
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c > CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.i
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_pwr_ex.c.s"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.s
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_pwr_ex.c.s
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/CAN_motor.elf.dir/flags.make
-CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: D:/STM32Cube/my_projects/CAN_motor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
+CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: D:/STM32Cube/my_projects/CAN_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj: CMakeFiles/CAN_motor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_motor\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.obj -c D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.i"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c > CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.i
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c > CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.i
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.c.s"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.s
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc.c.s
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/CAN_motor.elf.dir/flags.make
-CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: D:/STM32Cube/my_projects/CAN_motor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
+CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: D:/STM32Cube/my_projects/CAN_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj: CMakeFiles/CAN_motor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_motor\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.obj -c D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.i"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c > CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.i
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c > CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.i
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc_ex.c.s"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.s
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_rcc_ex.c.s
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/CAN_motor.elf.dir/flags.make
-CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: D:/STM32Cube/my_projects/CAN_motor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
+CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: D:/STM32Cube/my_projects/CAN_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj: CMakeFiles/CAN_motor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_motor\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.obj -c D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.i"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c > CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.i
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c > CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.i
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.c.s"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.s
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim.c.s
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/CAN_motor.elf.dir/flags.make
-CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: D:/STM32Cube/my_projects/CAN_motor/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
+CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: D:/STM32Cube/my_projects/CAN_board/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj: CMakeFiles/CAN_motor.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_motor\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\STM32Cube\my_projects\CAN_board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj"
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj -MF CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj.d -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.obj -c D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.i"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c > CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.i
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c > CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.i
 
 CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.s"
-	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_motor\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.s
+	D:\STM32Cube\STM32CubeCLT_1.16.0\GNU-tools-for-STM32\bin\arm-none-eabi-gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S D:\STM32Cube\my_projects\CAN_board\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c -o CMakeFiles\CAN_motor.elf.dir\Drivers\STM32F4xx_HAL_Driver\Src\stm32f4xx_hal_tim_ex.c.s
 
 # Object files for target CAN_motor.elf
 CAN_motor_elf_OBJECTS = \
@@ -507,12 +507,12 @@ CAN_motor.elf: CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm
 CAN_motor.elf: CMakeFiles/CAN_motor.elf.dir/Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.c.obj
 CAN_motor.elf: CMakeFiles/CAN_motor.elf.dir/build.make
 CAN_motor.elf: CMakeFiles/CAN_motor.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\STM32Cube\my_projects\CAN_motor\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable CAN_motor.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\STM32Cube\my_projects\CAN_board\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Linking CXX executable CAN_motor.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\CAN_motor.elf.dir\link.txt --verbose=$(VERBOSE)
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building D:/STM32Cube/my_projects/CAN_motor/cmake-build-debug/CAN_motor.hex"
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building D:/STM32Cube/my_projects/CAN_motor/cmake-build-debug/CAN_motor.bin"
-	arm-none-eabi-objcopy -Oihex D:/STM32Cube/my_projects/CAN_motor/cmake-build-debug/CAN_motor.elf D:/STM32Cube/my_projects/CAN_motor/cmake-build-debug/CAN_motor.hex
-	arm-none-eabi-objcopy -Obinary D:/STM32Cube/my_projects/CAN_motor/cmake-build-debug/CAN_motor.elf D:/STM32Cube/my_projects/CAN_motor/cmake-build-debug/CAN_motor.bin
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building D:/STM32Cube/my_projects/CAN_board/cmake-build-debug/CAN_motor.hex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold "Building D:/STM32Cube/my_projects/CAN_board/cmake-build-debug/CAN_motor.bin"
+	arm-none-eabi-objcopy -Oihex D:/STM32Cube/my_projects/CAN_board/cmake-build-debug/CAN_motor.elf D:/STM32Cube/my_projects/CAN_board/cmake-build-debug/CAN_motor.hex
+	arm-none-eabi-objcopy -Obinary D:/STM32Cube/my_projects/CAN_board/cmake-build-debug/CAN_motor.elf D:/STM32Cube/my_projects/CAN_board/cmake-build-debug/CAN_motor.bin
 
 # Rule to build all files generated by this target.
 CMakeFiles/CAN_motor.elf.dir/build: CAN_motor.elf
@@ -523,6 +523,6 @@ CMakeFiles/CAN_motor.elf.dir/clean:
 .PHONY : CMakeFiles/CAN_motor.elf.dir/clean
 
 CMakeFiles/CAN_motor.elf.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\STM32Cube\my_projects\CAN_motor D:\STM32Cube\my_projects\CAN_motor D:\STM32Cube\my_projects\CAN_motor\cmake-build-debug D:\STM32Cube\my_projects\CAN_motor\cmake-build-debug D:\STM32Cube\my_projects\CAN_motor\cmake-build-debug\CMakeFiles\CAN_motor.elf.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\STM32Cube\my_projects\CAN_board D:\STM32Cube\my_projects\CAN_board D:\STM32Cube\my_projects\CAN_board\cmake-build-debug D:\STM32Cube\my_projects\CAN_board\cmake-build-debug D:\STM32Cube\my_projects\CAN_board\cmake-build-debug\CMakeFiles\CAN_motor.elf.dir\DependInfo.cmake "--color=$(COLOR)"
 .PHONY : CMakeFiles/CAN_motor.elf.dir/depend
 

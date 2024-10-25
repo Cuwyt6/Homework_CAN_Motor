@@ -20,7 +20,6 @@
 #include "main.h"
 #include "can.h"
 #include "gpio.h"
-#include "M3508_Motor.h"
 
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
@@ -36,15 +35,16 @@
 /* USER CODE BEGIN PD */
 CAN_RxHeaderTypeDef RxHeader;
 CAN_TxHeaderTypeDef TxHeader = {
-        0x0200,
+        0x01,
         0,
         CAN_ID_STD,
         CAN_RTR_DATA,
-        8,
+        1,
         DISABLE};
-uint8_t rx_data[8];
-uint8_t tx_data[8] = {0x00, 0x00, 0x00, 0xFF, 0x00, 0x00, 0x00, 0x00};
-M3508_Motor Motor;
+uint8_t rx_data[1];
+uint8_t tx_data[1] = {0xFF};
+uint32_t TxMailbox = CAN_TX_MAILBOX0;
+CAN_FilterTypeDef FilterConfig = {0, 0, 0, 0, CAN_FILTER_FIFO0, 14, CAN_FILTERMODE_IDMASK, CAN_FILTERSCALE_32BIT, ENABLE};
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -100,16 +100,6 @@ int main(void)
   MX_GPIO_Init();
   MX_CAN1_Init();
   /* USER CODE BEGIN 2 */
-    CAN_FilterTypeDef FilterConfig = {
-            0,
-            0x0200,
-            0,
-            0,
-            CAN_FilterFIFO0,
-            14,
-            CAN_FILTERMODE_IDMASK,
-            CAN_FILTERSCALE_32BIT,
-            ENABLE};
 
     HAL_CAN_ConfigFilter(&hcan1,&FilterConfig);
     HAL_CAN_Start(&hcan1);
@@ -121,8 +111,7 @@ int main(void)
   while (1)
   {
     /* USER CODE END WHILE */
-      HAL_CAN_AddTxMessage(&hcan1, &TxHeader, tx_data, CAN_FilterFIFO0);
-      HAL_Delay(1000);
+
     /* USER CODE BEGIN 3 */
   }
   /* USER CODE END 3 */
